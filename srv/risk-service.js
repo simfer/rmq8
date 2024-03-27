@@ -34,6 +34,8 @@ module.exports = cds.service.impl(async function () {
         })
     })
 
+    // prova cicd
+    
     // connect to remote service
     const BPsrv = await cds.connect.to("API_BUSINESS_PARTNER");
     /** 
